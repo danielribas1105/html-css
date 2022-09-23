@@ -1,0 +1,75 @@
+
+header{
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.boxMenu{
+    position: relative;
+    margin: 0 auto;
+    width: 940px;
+}
+
+nav{
+    position: absolute;
+    top:110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+nav a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.mainClass{
+    padding: 50px 0;
+}
+
+.boxItemServices{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.itemServices li{
+    display: inline-block;
+    text-align:center;
+    background: #CCCCCC;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 10px;
+    box-sizing: border-box;
+    border-width: 3px;
+    border-style:solid;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.itemServices h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.descService{
+    font-size: 18px;
+}
+
+.valueService{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
