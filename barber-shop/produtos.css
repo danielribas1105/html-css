@@ -30,7 +30,7 @@ nav a{
 }
 
 nav a:hover{
-    color: blue;
+    color: #c78c19;
     text-decoration: underline;
 }
 
@@ -47,21 +47,31 @@ nav a:hover{
 .itemServices li{
     display: inline-block;
     text-align:center;
-    background: #CCCCCC;
     width: 30%;
     vertical-align: top;
     margin: 0 1.5%;
-    padding: 30px 10px;
+    padding: 30px 20px;
     box-sizing: border-box;
-    border-width: 3px;
-    border-style:solid;
-    border-color: black;
+    border: 3px solid black;
     border-radius: 10px;
 }
 
 .itemServices h2{
     font-size: 30px;
     font-weight: bold;
+}
+
+.itemServices li:hover{
+    border-color:  #c78c19;
+}
+
+.itemServices li:hover h2{
+    font-size: 34px;
+    color: #c78c19;
+}
+
+.itemServices li:active{
+    border-color:  #088c19;
 }
 
 .descService{
@@ -72,4 +82,16 @@ nav a:hover{
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
+}
+
+footer{
+    background: url("bg.jpg");
+    text-align: center;
+    padding: 20px 0;
+}
+
+.copyright {
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
 }
