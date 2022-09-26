@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <div class="boxMenu">
+            <H1><img class="logoCont" src="logo.png" alt="Logomarca Barber Shop"></H1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="produtos.html">produtos</a></li>
+                    <li><a href="contato.html">contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="mainClass">
+        <div class="boxDivMain">
+            <form action="">
+                <label for="campoNome">Nome</label>
+                <input type="text" id="campoNome" name="campoNome">
+                <label for="campoEmail">E-mail</label>
+                <input type="text" id="campoEmail" name="campoEmail">
+                <label for="campoTel">Telefone</label>
+                <input type="text" id="campoTel" name="campoTel">
+
+                <label for="campoMensagem">Mensagem</label>
+                <textarea name="campoMensagem" id="campoMensagem" cols="30" rows="10"></textarea>
+
+                <div class="divRadioContato">
+                    <p>Como deseja receber nosso contato?</p>
+                    <label for="radioEmail">E-mail</label>
+                    <input type="radio" name="radioContato" value="email" id="radioEmail">
+                    <label for="radioTel">Telefone</label>
+                    <input type="radio" name="radioContato" value="telefone" id="radioTel">
+                    <label for="radioWhatsApp">WhatsApp</label>
+                    <input type="radio" name="radioContato" value="whatsapp" id="radioWhatsApp">
+                </div>
+                <label for="checkContato"> <input type="checkbox"> Gostaria de receber nossas inforções por e-mail?</label>
+            
+                <input type="submit" name="btnEnviar" value="ENVIAR">
+            </form>
+
+        </div>
+    </main>
+
+    <footer>
+        <img src="logo-branco.png" alt="Logomarca Barber Shop Alura">
+        <p class="copyright">&copy; Copyright Barber Shop Alura - 2022</p>
+    </footer>
+</body>
+</html>
