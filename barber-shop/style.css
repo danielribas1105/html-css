@@ -45,24 +45,65 @@ nav a:hover{
 }
 
 form{
-    padding: 40px 0;
+    padding: 40px 40px;
+    border: 2px solid black;
+    border-radius: 20px;
 }
 
-form label{
+form label, form legend{
     display: block;
     font-size: 20px;
     margin-bottom: 10px;
 }
 
-form input{
+.inputPadrao{
     display: block;
     margin-bottom: 20px;
     padding: 10px 25px;
     width: 50%;
 }
 
-.divRadioContato{
-    font-size: 20px;
+.selectContato{
+    margin: 20px 0;
+}
+
+.checkContato {
+    margin: 20px 0;
+}
+
+.btnEnviar{
+    width: 20%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    transition: 2s;
+    cursor: pointer;
+}
+
+.btnEnviar:hover{
+    background: #088c19;
+    color: white;
+    border: none;
+    transform: scale(1.2);
+}
+
+table{
+    margin: 40px 0 40px;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 8px 15px;
 }
 
 .itemServices li{

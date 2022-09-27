@@ -25,28 +25,55 @@
         <div class="boxDivMain">
             <form action="">
                 <label for="campoNome">Nome</label>
-                <input type="text" id="campoNome" name="campoNome">
+                <input type="text" id="campoNome" name="campoNome" class="inputPadrao" placeholder="Nome completo" required>
                 <label for="campoEmail">E-mail</label>
-                <input type="text" id="campoEmail" name="campoEmail">
+                <input type="email" id="campoEmail" name="campoEmail" class="inputPadrao" placeholder="seuemail@seudominio.com" required>
                 <label for="campoTel">Telefone</label>
-                <input type="text" id="campoTel" name="campoTel">
+                <input type="tel" id="campoTel" name="campoTel" class="inputPadrao" placeholder="(XX) XXXXX-XXXX" required>
 
                 <label for="campoMensagem">Mensagem</label>
-                <textarea name="campoMensagem" id="campoMensagem" cols="30" rows="10"></textarea>
+                <textarea name="campoMensagem" id="campoMensagem" cols="30" rows="10" class="inputPadrao" required></textarea>
 
-                <div class="divRadioContato">
-                    <p>Como deseja receber nosso contato?</p>
-                    <label for="radioEmail">E-mail</label>
-                    <input type="radio" name="radioContato" value="email" id="radioEmail">
-                    <label for="radioTel">Telefone</label>
-                    <input type="radio" name="radioContato" value="telefone" id="radioTel">
-                    <label for="radioWhatsApp">WhatsApp</label>
-                    <input type="radio" name="radioContato" value="whatsapp" id="radioWhatsApp">
-                </div>
-                <label for="checkContato"> <input type="checkbox"> Gostaria de receber nossas inforções por e-mail?</label>
+                <fieldset class="divRadioContato">
+                    <legend>Como deseja receber nosso contato?</legend>
+                    <label for="radioEmail"><input type="radio" name="radioContato" value="email" id="radioEmail" class=""> E-mail</label>
+                    <label for="radioTel"><input type="radio" name="radioContato" value="telefone" id="radioTel"> Telefone</label>
+                    <label for="radioWhatsApp"><input type="radio" name="radioContato" value="whatsapp" id="radioWhatsApp" checked> WhatsApp</label>
+                </fieldset>
+                <fieldset class="selectContato">
+                    <legend>Qual o horário para ser atendido?</legend>
+                    <select name="" id="">
+                        <option value="">Manhã</option>
+                        <option value="">Tarde</option>
+                        <option value="">Noite</option>
+                    </select>
+                </fieldset>
+                <label class="checkContato"><input type="checkbox" checked> Gostaria de receber nossas inforções por e-mail?</label>
             
-                <input type="submit" name="btnEnviar" value="ENVIAR">
+                <input type="submit" name="btnEnviar" value="ENVIAR" class="btnEnviar">
             </form>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Segundas</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Quartas</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Sextas</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                </tbody>
+            </table>
 
         </div>
     </main>
