@@ -157,3 +157,38 @@ footer{
     font-size: 15px;
     margin-top: 20px;
 }
+
+/*CSS página index*/
+
+.banner{
+    width: 100%;
+}
+
+.tituloPrincipal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.imgUtensilios{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.principal p{
+    margin: 0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.imgBeneficios{
+    width: 60%;
+}
