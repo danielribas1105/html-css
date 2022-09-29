@@ -212,7 +212,7 @@ form label, form legend{
     display: block;
     margin-bottom: 20px;
     padding: 10px 25px;
-    width: 50%;
+    width: 93%;
 }
 
 .selectContato{
@@ -302,5 +302,23 @@ footer{
 
     .listBeneficios, .imgBeneficios{
         width: 100%;
+    }
+
+    .itemServices li{
+        display: block;
+        width: 100%;
+        margin: 1em auto;
+    }
+
+    form{
+        padding: 20px 20px;
+    }
+
+    .inputPadrao{
+        width: 80%;
+    }
+
+    .btnEnviar{
+        width: 50%;
     }
 }
